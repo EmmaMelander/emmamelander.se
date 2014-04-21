@@ -1,8 +1,8 @@
 "devDependencies": {
-    "grunt": "",
-    "grunt-contrib-less": "",
-    "grunt-contrib-watch": ""
-    "grunt-contrib-jshint": ""
-    "grunt-contrib-concat": ""
-    "grunt-contrib-uglify": ""
+    "grunt": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*"
+    "grunt-contrib-jshint": "*"
+    "grunt-contrib-concat": "*"
+    "grunt-contrib-uglify": "*"
 },
