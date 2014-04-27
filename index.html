@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Emma Melander</title>
+    <link rel="stylesheet" type="text/css" href="res/less/style.css">
+    <link rel="stylesheet/less" type="text/css" href="res/less/main.less">
+    <script src="res/js/less.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
-    
+	<div id="container">
+		<header>
+			<div id="headerContent">
+				<h1>Emma Melander</h1>
+				<nav>
+					<ul>
+						<li><a href="#welcome">Start</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#cv">CV</a></li>
+						<li><a href="#contact">Kontakt</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="main">
+			<section id="welcome" class="anchor">
+				<img src="res/img/emma.jpg" alt="Emma">
+				<p id="welcomeTxt">
+					Välkommen!
+						Mitt namn är Emma Melander och jag är en<span class="interactiondes">interaktionsdesigner</span>
+
+					</p>
+			</section>
+			<section id="playground" class="anchor">
+				<h2>Här leker jag</h2>
+			</section>
+			<section id="portfolio" class="anchor">
+				<h2>Portfolio?</h2>
+			</section>
+			<section id="cv" class="anchor">
+				<h2>CV</h2>
+			</section>
+		</div>
+		<footer id="contact">
+			<p>
+				Är det något du undrar, eller vill du bara säga hej? Hör gärna av dig via mail, facebook eller telefon.
+			</p>
+			<ul>
+				<li><a href="#"><img src="res/img/email.png" alt="Email"></a></li>
+				<li><a href="#"><img src="res/img/facebook.png" alt="Facebook"></a></li>
+				<li><a href="#"><img src="res/img/phone.png" alt="Phonenumber"></a></li>
+			</ul>
+			<p>
+				Eller så skickar du bara ett meddelande via formuläret nedan, hoppas vi hörs!
+			</p>
+			<form>
+				<input type="text" placeholder="Namn">
+				<input type="email" placeholder="E-mail">
+				<input type="text" placeholder="Telefonnummer">
+				<textarea placeholder="Skriv här..."></textarea>
+				<button type="submit">Skicka</button>
+			</form>
+		</footer>
+    </div>
 </body>
 </html>
