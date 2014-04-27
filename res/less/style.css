@@ -37,6 +37,9 @@ header{
 		header h1{
 			display:inline-block;
 		}
+		header a{
+					color:#fff;
+				}
 		header nav{
 			display:inline-block;
 			position:absolute;
@@ -56,10 +59,12 @@ header{
 				padding-right:none;
 				border-right:none;
 			}
-				header li a{
-					color:#fff;
-				}
-
+.anchor{
+   display:block;
+   height:83px; /* this is the height of your header */
+   margin-top:-83px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+}
 #welcome{
 	width:100%;
 	padding-top:110px;

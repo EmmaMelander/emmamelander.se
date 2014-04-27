@@ -6,25 +6,27 @@
     <link rel="stylesheet" type="text/css" href="res/less/style.css">
     <link rel="stylesheet/less" type="text/css" href="res/less/main.less">
     <script src="res/js/less.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="res/js/main.js"></script>
 </head>
 <body>
 	<div id="container">
 		<header>
 			<div id="headerContent">
-				<h1>Emma Melander</h1>
+				<h1><a href="index.html">Emma Melander</a></h1>
 				<nav>
 					<ul>
 						<li><a href="#welcome">Start</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#cv">CV</a></li>
-						<li><a href="#contact">Kontakt</a></li>
+						<li><a href="#portfolioAnchor">Portfolio</a></li>
+						<li><a href="#cvAnchor">CV</a></li>
+						<li><a href="#contactAnchor">Kontakt</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		<div id="main">
-			<section id="welcome" class="anchor">
+
+			<section id="welcome">
 				<img src="res/img/emma.jpg" alt="Emma">
 				<p id="welcomeTxt">
 					Välkommen!
@@ -32,16 +34,19 @@
 
 					</p>
 			</section>
-			<section id="playground" class="anchor">
+			<section id="playground">
 				<h2>Här leker jag</h2>
 			</section>
-			<section id="portfolio" class="anchor">
+			<span class="anchor" id="portfolioAnchor"></span>
+			<section id="portfolio">
 				<h2>Portfolio?</h2>
 			</section>
-			<section id="cv" class="anchor">
+			<span class="anchor" id="cvAnchor"></span>
+			<section id="cv">
 				<h2>CV</h2>
 			</section>
 		</div>
+		<span class="anchor" id="contactAnchor"></span>
 		<footer id="contact">
 			<p>
 				Är det något du undrar, eller vill du bara säga hej? Hör gärna av dig via mail, facebook eller telefon.
